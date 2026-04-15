@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Warriyo - Mortals [NCS Release]", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Aari-Aari", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "Ghar kab aaoge", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Hum Pyar karane wale he", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Jay sajana", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Phir se", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Sakhiyaan - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Bhula Dena - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Tumhari Kasam - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Bairan", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Warriyo - Mortals [NCS Release]", filePath: "1.mp3", coverPath: "1.jpg"},
+    {songName: "Aari-Aari", filePath: "2.mp3", coverPath: "2.jpg"},
+    {songName: "Ghar kab aaoge", filePath: "3.mp3", coverPath: "3.jpg"},
+    {songName: "Hum Pyar karane wale he", filePath: "4.mp3", coverPath: "4.jpg"},
+    {songName: "Jay sajana", filePath: "5.mp3", coverPath: "5.jpg"},
+    {songName: "Phir se", filePath: "2.mp3", coverPath: "6.jpg"},
+    {songName: "Sakhiyaan - Salam-e-Ishq", filePath: "7.mp3", coverPath: "7.jpg"},
+    {songName: "Bhula Dena - Salam-e-Ishq", filePath: "8.mp3", coverPath: "8.jpg"},
+    {songName: "Tumhari Kasam - Salam-e-Ishq", filePath: "9.mp3", coverPath: "9.jpg"},
+    {songName: "Bairan", filePath: "10.mp3", coverPath: "10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
